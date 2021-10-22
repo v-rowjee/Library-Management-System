@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #ebedf3;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarymanagementsystem.LoginController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="300.0" text="LOGIN" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Region prefHeight="50.0" prefWidth="200.0" />
+      <Label prefHeight="30.0" text="Username" />
+      <TextField fx:id="txtUsername" promptText="Username" />
+      <Region prefHeight="25.0" prefWidth="200.0" />
+      <Label prefHeight="30.0" text="Password" />
+      <PasswordField fx:id="txtPassword" promptText="Password" />
+      <Region layoutX="10.0" layoutY="40.0" prefHeight="50.0" prefWidth="200.0" />
+      <Label fx:id="loginMessage" alignment="CENTER" prefHeight="50.0" prefWidth="250.0" textAlignment="CENTER" textFill="#fb2b11" />
+      <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnLoginClick" prefWidth="300.0" text="Log In" textAlignment="CENTER" wrapText="true" />
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="25.0" right="25.0" top="30.0" />
+   </padding>
+</VBox>
