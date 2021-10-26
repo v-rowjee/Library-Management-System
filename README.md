@@ -7,3 +7,5 @@ A login messsage is displayed to indicate empty textfields, incorrect login deta
 🎅 Username: admin
 
 🔐 Password: 1234
+
+Once logged in, User can view all available books.
