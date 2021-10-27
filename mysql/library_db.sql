@@ -47,8 +47,8 @@ INSERT INTO `library_db`.`account` (username, password, firstname, lastname) VAL
 
 -- view account table details
 SELECT * FROM `library_db`.`account`;
+SELECT count(1), firstname, lastname, username, password FROM `library_db`.`account`;
 
 -- populating table book
 INSERT INTO `library_db`.`book` (title,author) VALUES ('The Wedding Dress', 'Danielle Steel');
 INSERT INTO `library_db`.`book` (title,author) VALUES ('Harry Potter and the Deathly Hallows', 'J.K.Rowling');
-
