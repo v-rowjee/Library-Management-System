@@ -1,0 +1,119 @@
+/*
+https://www.color-name.com/light-teal.color#shades
+*/
+
+.root
+{
+    -fx-font-family : "roboto";
+    -fx-background-color : linear-gradient(to bottom right,#093030,#0C4040,#0F5151);
+}
+
+.label
+{
+    -fx-text-fill: #E9F6F6;
+}
+
+.text-field
+{
+    -fx-background-color: #E9F6F6;
+    -fx-text-fill: #031010;
+    -fx-prompt-text-fill: #768383;
+}
+
+.button
+{
+    -fx-background-color: #031010;
+    -fx-text-fill: #E9F6F6;
+}
+.button:hover
+{
+    -fx-opacity: 0.85;
+}
+
+.dashboard
+{
+    -fx-background-color: #093030;
+}
+
+.dashboardBtn
+{
+    -fx-background-color: #062020;
+}
+.dashboardBtn:hover
+{
+    -fx-opacity: 0.85;
+}
+
+.stackPane
+{
+    -fx-background-color : linear-gradient(to bottom right,#0F5151,#126161, #157171);
+}
+
+.card, .cardBtn
+{
+    -fx-background-color: linear-gradient(to bottom right, rgba( 255, 255, 255, 0.3 ),rgba( 255, 255, 255, 0.1 ));
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-radius: 15;
+}
+
+.dashboardTitle
+{
+    -fx-background-color: linear-gradient(to right,rgba( 255, 255, 255, 0.1 ), rgba( 255, 255, 255, 0.3 ));
+}
+
+/* STYLING TABLEVIEW */
+.table-view{
+    -fx-background-color: #031010;
+}
+
+.table-view:focused{
+    -fx-background-color: #031010;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color:  #093030;
+    -fx-padding: 5px;
+}
+.table-view .column-header{
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #031010;
+    -fx-background-color: #031010, #638A8A;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-border-color: #031010;
+    -fx-border-width: 0.5;
+    -fx-padding: 5px;
+
+}
+.table-view .table-row-cell{
+    -fx-background-color: #031010;
+}
+.table-view .table-row-cell:selected .table-cell{
+    -fx-background-color: linear-gradient(to bottom, #3B9797, #4F9191);
+}
+
+/*.table-row-cell:odd{*/
+/*    -fx-background-color: -fx-table-cell-border-color, #6C8787;*/
+/*    -fx-background-insets: 0, 0 0 1 0;*/
+/*    -fx-padding: 0.0em; !* 0 *!*/
+/*}*/
+
+
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background{
+    -fx-background-color: #093030;
+}
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #4BB4B4, #188181);
+}
