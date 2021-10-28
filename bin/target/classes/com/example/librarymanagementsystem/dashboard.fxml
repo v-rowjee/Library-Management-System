@@ -39,7 +39,7 @@
    <center>
       <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane fx:id="pane1" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5;">
+            <AnchorPane fx:id="pane1" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5;" visible="false">
                <children>
                   <Pane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #ccc;">
                      <children>
@@ -91,7 +91,7 @@
                                     <Insets />
                                  </VBox.margin>
                               </Label>
-                              <TextField fx:id="txtAuthor" editable="false" layoutX="10.0" layoutY="27.0">
+                              <TextField fx:id="txtAuthor" layoutX="10.0" layoutY="27.0">
                                  <opaqueInsets>
                                     <Insets />
                                  </opaqueInsets>
@@ -185,7 +185,7 @@
                      </children>
                   </GridPane>
                </children></AnchorPane>
-            <AnchorPane fx:id="pane2" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5;" visible="false">
+            <AnchorPane fx:id="pane2" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: f5f5f5;">
                <children>
                   <Pane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #ccc;">
                      <children>
