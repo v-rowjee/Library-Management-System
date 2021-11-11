@@ -11,18 +11,13 @@
       <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="dashboard" BorderPane.alignment="CENTER">
          <children>
             <Pane prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Label prefHeight="100.0" prefWidth="200.0" text="Library&#10;Assistant">
-                     <font>
-                        <Font name="System Bold" size="20.0" />
-                     </font>
-                     <padding>
-                        <Insets left="20.0" />
-                     </padding>
-                  </Label>
-               </children>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="60.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
             </Pane>
-            <VBox layoutY="100.0" prefHeight="450.0" prefWidth="200.0">
+            <VBox layoutY="100.0" prefHeight="450.0" prefWidth="200.0" spacing="1.0" AnchorPane.topAnchor="100.0">
                <children>
                   <Button mnemonicParsing="false" onAction="#toAccount" prefHeight="40.0" prefWidth="200.0" styleClass="dashboardBtn" text="Account" />
                   <Button mnemonicParsing="false" onAction="#toBooks" prefHeight="40.0" prefWidth="200.0" styleClass="dashboardBtn" text="Books" />
@@ -48,6 +43,8 @@
                               <Font name="System Bold" size="28.0" />
                            </font>
                         </Label>
+                        <Button layoutX="675.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="25.0" prefWidth="25.0" styleClass="titlebarBtn" text="X" />
+                        <Button layoutX="650.0" mnemonicParsing="false" onAction="#minWindow" prefHeight="25.0" prefWidth="25.0" styleClass="titlebarBtn" text="-" />
                      </children>
                   </Pane>
                   <GridPane hgap="20.0" layoutX="56.0" layoutY="117.0" prefHeight="450.0" prefWidth="600.0" vgap="20.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="130.0">
@@ -197,6 +194,8 @@
                               <Font name="System Bold" size="28.0" />
                            </font>
                         </Label>
+                        <Button layoutX="675.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="25.0" prefWidth="25.0" styleClass="titlebarBtn" text="X" />
+                        <Button layoutX="650.0" mnemonicParsing="false" onAction="#minWindow" prefHeight="25.0" prefWidth="25.0" styleClass="titlebarBtn" text="-" />
                      </children>
                   </Pane>
                   <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="212.0" layoutY="268.0" prefHeight="300.0" prefWidth="600.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
